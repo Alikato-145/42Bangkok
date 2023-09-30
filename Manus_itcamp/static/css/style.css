@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Chakra Petch', 'minecrafter', sans-serif;;
+    src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+    src: url("/static/webfonts/minecrafter/Minecrafter.Reg.ttf");
+}
+
+* {
+    font-family: 'Chakra Petch';
+    src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+}
+.img-fluid{
+    width: 100%;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+nav.navbar {
+	background-color: #fffb9e;
+}
+
+#web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#web title{
+    margin-top: 1em;
+}
+
+#jumbotron {
+    margin-top: 1em;
+}
+
+#jumbotron h1{
+    text-align: center;
+    font-size: 4vw;
+}
+
+#jumbotron h5{
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    display: inline-block;
+}
+
+.intro .profile {
+    margin-top: 10vh;
+    display: inline-block;
+}
+
+.intro img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.intro .text {
+    display: inline-block;
+    padding-left: 3em;
+    padding-top: 3em;
+    font-family: "Chakra_Petch";
+    margin-top: 10vh;
+}
+
+.intro .info {
+ 
+    padding-top: 2em;
+}
+
+.intro .title {
+    
+    font-weight: bolder;
+}
+
+.intro .desc {
+    
+    font-weight: normal;
+}
+
+.intro h1 {
+    font-size: 56px;
+}
+
+.intro h3 {
+    padding-bottom: 1em;
+}
+
+.skill {
+    padding-top: 10vh;
+    position: relative;
+    text-align: center;
+  
+}
+.skill h2{
+    text-align: center;
+}
+
+.skill .img_skill{
+    width: 450px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    max-width: 450px;
+    max-height: 300px;
+    display: block;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    object-fit: cover;
+
+}
+
+.skill h5 {
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.skill p {
+    display: block;
+    text-align: center;
+}
+
+.skill .box{
+    display: inline-block;
+    text-align: center;
+}
+.skill .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+}
+  
+.skill .progress {
+    height: 20px;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
+
+.contact {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact .input-group {
+    padding-bottom: 1em;
+}
+
+.contact .title {
+    text-align: right;
+    margin-right: 6em;
+}
+
+.contact .input {
+     justify-content: right;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+
+.image-container:hover .overlay {
+	opacity: 0.3;
+}
+
+.cover {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+#footer {
+    margin-top: 24vh;
+   
+}
+#footer img{
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+    display: inline-block;
+}

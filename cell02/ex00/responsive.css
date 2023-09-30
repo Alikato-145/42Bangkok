@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+   }
+   .box1 ,.box2{
+    border: solid;
+    border-width: 1px;
+    width: 50%;
+    height: 100%;     
+    font-size: 100px;
+    }
+    @media(max-width:800px){
+        .container, .container div{
+            display: block;
+            width: 100%;
+        }
+    }
+   body{
+    margin: 0px;
+   }

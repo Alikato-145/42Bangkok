@@ -1,0 +1,11 @@
+.btn{
+    padding: 5px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+	   left: 50%;
+	   top:50%;
+    
+
+}
